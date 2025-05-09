@@ -1,0 +1,15 @@
+#container {
+  justify-content: center;
+
+  display: grid;
+  gap: 10px;
+  grid-template: repeat(8, 50px) / repeat(8, 50px);
+  margin-top: 100px;
+}
+#container > div {
+  padding: 10px;
+  border: 1px solid black;
+}
+input {
+  padding: 10px;
+}
